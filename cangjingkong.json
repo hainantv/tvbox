@@ -1,0 +1,47 @@
+{
+  "spider": "./哈兰德.jar",
+  "wallpaper": "./bz.jpeg",
+  "sites": [
+      {
+      "key": "nangua",
+      "name": "悠哉的南瓜🎃粥",
+      "type": 3,
+      "playerType": "2",
+      "jar":"./lib/内射.jar",
+      "api": "./lib/ng_open.js"
+      },
+      {
+            "key": "cangjingkong",
+            "name": "苍井空影院",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar":"./cangjingkong.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./lib/苍井空影院.json"
+        },
+            {
+      "key": "88js",
+      "name": "悠哉88体育",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/88看球.js",
+      "style": {
+        "type": "list"
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    }
+  ],
+  "logo": "./lg.jpg",
+  "lives": [
+    {
+      "name": "悠哉",
+      "type": 0,
+      "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/youzaiwarp/yz/main/youzai.m3u",
+      "playerType": 1
+    }
+  ]
+}
